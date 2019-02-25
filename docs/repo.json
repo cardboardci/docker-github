@@ -1,0 +1,8 @@
+{
+  "name": "docker-github",
+  "tagline": "A command-line tool that makes git easier to use with GitHub.",
+  "license": {
+    "name": "MIT"
+  },
+  "tags": ["docker", "github", "hub", "source-control"]
+}
