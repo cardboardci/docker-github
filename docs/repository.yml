@@ -1,0 +1,10 @@
+---
+name: Docker GitHub
+slug: docker-github
+project: cardboardci
+namespace: []
+description: A command-line tool that makes git easier to use with GitHub.
+license:
+  name: MIT
+tags:
+  - docker
