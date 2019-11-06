@@ -1,8 +1,0 @@
----
-name: github
-provider: github.com
-repository: docker-github
-url: https://github.com/cardboardci/docker-github
-clone:
-  ssh: git@github.com:cardboardci/docker-github.git
-  https: https://github.com/cardboardci/docker-github.git
