@@ -8,6 +8,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN wget -O hub.tgz "https://github.com/github/hub/releases/download/v${VERSION}/hub-linux-amd64-${VERSION}.tgz"
 RUN tar -xvf hub.tgz --strip-components 1 -C /usr/local;
 
+USER cardboardci
+
 ##
 ## Image Metadata
 ##
