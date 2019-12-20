@@ -14,24 +14,20 @@ RUN tar -xvf hub.tgz --strip-components 1 -C /usr/local;
 ARG build_date
 ARG version
 ARG vcs_ref
-LABEL maintainer = "CardboardCI" \
-    \
-    org.label-schema.schema-version = "1.0" \
-    \
-    org.label-schema.name = "github" \
-    org.label-schema.version = "${version}" \
-    org.label-schema.build-date = "${build_date}" \
-    org.label-schema.release= = "CardboardCI version:${version} build-date:${build_date}" \
-    org.label-schema.vendor = "cardboardci" \
-    org.label-schema.architecture = "amd64" \
-    \
-    org.label-schema.summary = "GitHub CLI" \
-    org.label-schema.description = "A command-line tool that makes git easier to use with GitHub" \
-    \
-    org.label-schema.url = "https://gitlab.com/cardboardci/images/github" \
-    org.label-schema.changelog-url = "https://gitlab.com/cardboardci/images/github/releases" \
-    org.label-schema.authoritative-source-url = "https://cloud.docker.com/u/cardboardci/repository/docker/cardboardci/github" \
-    org.label-schema.distribution-scope = "public" \
-    org.label-schema.vcs-type = "git" \
-    org.label-schema.vcs-url = "https://gitlab.com/cardboardci/images/github" \
-    org.label-schema.vcs-ref = "${vcs_ref}" \
+LABEL maintainer="CardboardCI"
+LABEL org.label-schema.schema-version="1.0"
+LABEL org.label-schema.name="github"
+LABEL org.label-schema.version="${version}"
+LABEL org.label-schema.build-date="${build_date}"
+LABEL org.label-schema.release="CardboardCI version:${version} build-date:${build_date}"
+LABEL org.label-schema.vendor="cardboardci"
+LABEL org.label-schema.architecture="amd64"
+LABEL org.label-schema.summary="GitHub CLI"
+LABEL org.label-schema.description="A command-line tool that makes git easier to use with GitHub"
+LABEL org.label-schema.url="https://gitlab.com/cardboardci/images/github"
+LABEL org.label-schema.changelog-url="https://gitlab.com/cardboardci/images/github/releases"
+LABEL org.label-schema.authoritative-source-url="https://cloud.docker.com/u/cardboardci/repository/docker/cardboardci/github"
+LABEL org.label-schema.distribution-scope="public"
+LABEL org.label-schema.vcs-type="git"
+LABEL org.label-schema.vcs-url="https://gitlab.com/cardboardci/images/github"
+LABEL org.label-schema.vcs-ref="${vcs_ref}"
